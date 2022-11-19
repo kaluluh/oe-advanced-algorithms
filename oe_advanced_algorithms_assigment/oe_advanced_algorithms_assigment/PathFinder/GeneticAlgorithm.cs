@@ -33,7 +33,7 @@ namespace oe_advanced_algorithms_assigment.PathFinder
             }
         }
 
-        public void Solve(int iterationCount)
+        public void Execute(int iterationCount)
         {
             InitializePopulation();
             for (int i = 0; i < iterationCount; i++)
@@ -50,7 +50,7 @@ namespace oe_advanced_algorithms_assigment.PathFinder
             }
         }
 
-        public void LoadInput(string path)
+        public void LoadInputData(string path)
         {
             try
             {

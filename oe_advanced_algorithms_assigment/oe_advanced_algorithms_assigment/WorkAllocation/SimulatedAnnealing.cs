@@ -23,7 +23,7 @@ namespace oe_advanced_algorithms_assigment.WorkAllocation
             workers = new List<Worker>();
         }
 
-        public void Solve(int iterationCount)
+        public void Execute(int iterationCount)
         {
             for (int i = 0; i < iterationCount; i++)
             {
@@ -55,7 +55,7 @@ namespace oe_advanced_algorithms_assigment.WorkAllocation
             }
         }
 
-        public void LoadInput(string path)
+        public void LoadInputData(string path)
         {
             try
             {

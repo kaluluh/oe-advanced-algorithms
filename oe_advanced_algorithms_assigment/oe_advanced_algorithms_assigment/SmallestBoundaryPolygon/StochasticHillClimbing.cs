@@ -17,7 +17,7 @@ namespace oe_advanced_algorithms_assigment.SmallestBoundaryPolygon
             climbers = new List<Point>();
         }
 
-        public void Solve(int numberOfClimbers, int iterationCount)
+        public void Execute(int numberOfClimbers, int iterationCount)
         {
             CreateClimbers(numberOfClimbers);
 
@@ -48,7 +48,7 @@ namespace oe_advanced_algorithms_assigment.SmallestBoundaryPolygon
             }
         }
 
-        public void LoadInput(string path)
+        public void LoadInputData(string path)
         {
             try
             {

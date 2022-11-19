@@ -10,16 +10,16 @@ namespace oe_advanced_algorithms_assigment
         static void Main(string[] args)
         {
             GeneticAlgorithm pathFinder = new GeneticAlgorithm(100, 10);
-            pathFinder.LoadInput("Map.txt");
-            pathFinder.Solve(50);
+            pathFinder.LoadInputData("Map.txt");
+            pathFinder.Execute(50);
 
             StochasticHillClimbing polygonSolver = new StochasticHillClimbing();
-            polygonSolver.LoadInput("Points.txt");
-            polygonSolver.Solve(3, 300);
+            polygonSolver.LoadInputData("Points.txt");
+            polygonSolver.Execute(3, 300);
 
             SimulatedAnnealing workAllocation = new SimulatedAnnealing();
-            workAllocation.LoadInput("Salary.txt");
-            workAllocation.Solve(1000);
+            workAllocation.LoadInputData("Salary.txt");
+            workAllocation.Execute(1000);
 
             Console.ReadKey();
         }
