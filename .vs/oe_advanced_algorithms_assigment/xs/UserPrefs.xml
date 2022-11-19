@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="oe_advanced_algorithms_assigment/Program.cs">
+    <Files>
+      <File FileName="oe_advanced_algorithms_assigment/PathFinder/GeneticAlgorithm.cs" Line="268" Column="1" />
+      <File FileName="oe_advanced_algorithms_assigment/WorkAllocation/SimulatedAnnealing.cs" />
+      <File FileName="oe_advanced_algorithms_assigment/Program.cs" Line="16" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="oe_advanced_algorithms_assigment" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>oe_advanced_algorithms_assigment/oe_advanced_algorithms_assigment.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

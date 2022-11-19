@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PathFinderGeneticAlgorithm\" />
+    <None Remove="SmallestBoundaryPolygon\" />
+    <None Remove="WorkAssigment\" />
+    <None Remove="Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PathFinder\" />
+    <Folder Include="SmallestBoundaryPolygon\" />
+    <Folder Include="WorkAllocation\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+</Project>
